@@ -1,0 +1,29 @@
+{
+  "name": "kaique-eletricista",
+  "version": "1.0.0",
+  "description": "Website profissional para Kaique Eletricista - Serviços de eletricidade residencial, predial e comercial",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx http-server",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "echo 'Deploy to GitHub Pages, Netlify, or Vercel'"
+  },
+  "keywords": [
+    "eletricista",
+    "São Paulo",
+    "residencial",
+    "predial",
+    "comercial",
+    "eletricidade"
+  ],
+  "author": "Kaique Eletricista",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/kaique_eletricista.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
