@@ -120,8 +120,11 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 3rem;
-    padding: 6rem 0;
+    padding: 6rem 20px;
     background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .hero-content h1 {
@@ -212,7 +215,7 @@ body {
    SOBRE SECTION
    ============================================ */
 .sobre {
-    padding: 5rem 0;
+    padding: 5rem 20px;
     background: var(--white);
 }
 
@@ -283,7 +286,7 @@ body {
    SERVIÇOS SECTION
    ============================================ */
 .servicos {
-    padding: 5rem 0;
+    padding: 5rem 20px;
     background: var(--light-bg);
 }
 
@@ -346,7 +349,7 @@ body {
    PROJETOS SECTION
    ============================================ */
 .projetos {
-    padding: 5rem 0;
+    padding: 5rem 20px;
     background: var(--white);
 }
 
@@ -397,7 +400,7 @@ body {
    DEPOIMENTOS SECTION
    ============================================ */
 .depoimentos {
-    padding: 5rem 0;
+    padding: 5rem 20px;
     background: linear-gradient(135deg, var(--secondary-color) 0%, #2a2a2a 100%);
     color: var(--white);
 }
@@ -454,7 +457,7 @@ body {
    CONTATO SECTION
    ============================================ */
 .contato {
-    padding: 5rem 0;
+    padding: 5rem 20px;
     background: var(--light-bg);
 }
 
@@ -606,7 +609,7 @@ body {
 .footer {
     background: var(--secondary-color);
     color: var(--white);
-    padding: 3rem 0 1rem;
+    padding: 3rem 20px 1rem;
 }
 
 .footer-content {
